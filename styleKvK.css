@@ -1,0 +1,33 @@
+h3 {
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(64, 224, 208); 
+   text-align: center;
+}
+
+.navbar-icon {
+	transition: all 600ms;
+}
+
+.navbar-icon:hover {
+	transform: scale(1.1);
+}
+
+.my-container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.my-container1 {
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+
+
+
+
+
