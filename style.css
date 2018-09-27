@@ -1,6 +1,5 @@
 
-body,
-html {
+body,html {
   width: 100%;
   height: 100%; 
 }
@@ -11,6 +10,12 @@ body {
   height: 100%;
 }
 
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
 header.startup {
   background: url(kvklogoturq.svg) center no-repeat;
   height: 100%;
@@ -19,6 +24,7 @@ header.startup {
 header.startup h1 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  color: rgba(184, 217, 210);
   letter-spacing: -2px;
   font-size: 44px;
   margin-top:14px;
@@ -40,6 +46,7 @@ header.startup h1 {
 }
 
 .btn-secondary {
+  background-color: #FE4B58;
   background-color: rgba(64, 224, 208, .3);
   border-color: rgb(64, 224, 208);
   border-width: 3px; 
